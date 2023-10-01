@@ -1,4 +1,5 @@
 // This is a comment
+// Copyright © 1999 Gallerys.
 
 // Declaring a variable
 var myVariable = 10
@@ -12,9 +13,11 @@ print("Hello, Swift!")
 // Conditional statement
 if myVariable > myConstant {
     print("myVariable is greater than myConstant")
-} else if myVariable == myConstant {
+} 
+else if myVariable == myConstant {
     print("myVariable is equal to myConstant")
-} else {
+} 
+else {
     print("myVariable is smaller than myConstant")
 }
 
@@ -38,3 +41,4 @@ func greet(name: String) -> String {
 
 let greeting = greet(name: "Alice")
 print(greeting)
+// Copyright © 1999 Gallerys.
